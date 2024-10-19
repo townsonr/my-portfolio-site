@@ -3,25 +3,39 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --lightest: #F7E5B8;
+  --light: #EFA34E;
+  --midtone: #71B2C2;
+  --bright: #D25015;
+  --dark: #364A5D;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+  background: var(--lightest);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: "Catamaran";
+  src: url("../public/fonts/catamaran-v19-latin-regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Neuton";
+  src: url("../public/fonts/neuton-v22-latin-regular.woff2") format('woff2');
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: theme("fontFamily.neuton");
+  }
+  p {
+    font-family: theme("fontFamily.catamaran");
   }
 }

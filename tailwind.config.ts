@@ -7,6 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      catamaran: ["Catamaran", "sans-serif"],
+      neuton: ["Neuton", "serif"],
+    },
     extend: {
       colors: {
         background: "var(--background)",
