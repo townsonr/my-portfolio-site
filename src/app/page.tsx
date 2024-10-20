@@ -10,9 +10,9 @@ export default function Home() {
             <p className='text-sm'>Website coming soon...</p>
           </div>
           <div className='bg-midtone rounded-lg p-3 m-3'>
-            <p> my email</p>
-            <p> my linkedin</p>
-            <p> my github </p>
+            <p> <a href='mailto:townsonr@msu.edu'>my email</a></p>
+            <p> <a href='https://www.linkedin.com/in/rachel-townson/' target="_blank" rel="noopener noreferrer">my linkedin</a></p>
+            <p> <a href='https://github.com/townsonr' target="_blank" rel="noopener noreferrer">my github</a> </p>
           </div>
         </div>
       </div>
