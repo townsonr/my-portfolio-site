@@ -22,7 +22,7 @@ const config: Config = {
       xs: '16px',
       sm: '18px',
       lg: '24px',
-      xl: '36px'
+      xl: '60px'
     }
   },
   plugins: [],
