@@ -1,5 +1,5 @@
 import '@/app/globals.css';
-import { NavBar } from './header';
+import { NavBar } from './nav_bar';
 
 
 export default function Home() {
