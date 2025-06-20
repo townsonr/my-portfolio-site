@@ -3,7 +3,7 @@ import headshot from "../../img/linkedin_headshot.jpeg";
 
 export default function IntroCard() {
     return (
-        <div className='text-lightest'>
+        <div className='text-lightest font-catamaran'>
             <div className='grid grid-cols-3'>
                 <div >
                     <img className='rounded-full' src={headshot.src} />
