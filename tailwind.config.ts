@@ -12,11 +12,12 @@ const config: Config = {
       neuton: ["Neuton", "serif"],
     },
     colors: {
-      lightest: '#f0e4d6',
-      light: '#b5ca50',
+      black: '#000000',
+      lightest: '#F0D8C3',
+      light: '#8AA8AB',
       midtone: '#b5ca50',
       bright: '#df6f42',
-      dark: '#1d0787'
+      dark: '#283F44'
     },
     fontSize: {
       xs: '16px',
