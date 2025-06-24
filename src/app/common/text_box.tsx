@@ -1,4 +1,4 @@
-import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, AwaitedReactNode } from "react";
+import { ReactElement} from "react";
 
 export default function TextBox(props: { children: Iterable<ReactElement>; }) {
     return (
