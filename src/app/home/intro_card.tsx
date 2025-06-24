@@ -1,4 +1,3 @@
-import ContactCard from "../common/contact_card";
 import headshot from "../../img/linkedin_headshot.jpeg";
 
 export default function IntroCard() {
