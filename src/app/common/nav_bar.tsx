@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { NavMenu } from './nav_menu';
 
 export function NavBar() {
-    const button_style = 'text-lg px-5';
+    const button_style = 'text-md px-5';
 
     return (
         <div className='font-neuton '>
@@ -19,7 +19,7 @@ export function NavBar() {
             <nav className='hidden sm:block font-neuton sticky top-0 px-5 py-5 bg-black bg-opacity-20'>
                 <div className='flow-root'>
                     <Link href={`/`}>
-                        <h1 className='text-lg float-left'>Rachel Townson</h1>
+                        <h1 className='text-md float-left'>Rachel Townson</h1>
                     </Link>
 
                     <div className='float-right'>

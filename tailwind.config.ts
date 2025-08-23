@@ -17,13 +17,14 @@ const config: Config = {
       light: '#8AA8AB',
       midtone: '#b5ca50',
       bright: '#df6f42',
-      dark: '#283F44'
+      dark: '#283F44',
     },
     fontSize: {
       xs: '16px',
       sm: '18px',
-      lg: '24px',
-      xl: '60px'
+      md: '24px',
+      lg: '30px',
+      xl: '60px',
     }
   },
   plugins: [],

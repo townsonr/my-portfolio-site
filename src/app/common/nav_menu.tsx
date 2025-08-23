@@ -14,7 +14,7 @@ export function NavMenu() {
         <nav className='flow-root'>
             <div className='flow-root sticky top-0 px-5 py-5 bg-black bg-opacity-20'>
                 <Link className='float-left' href={`/`}>
-                    <h1 className='text-lg'>Rachel Townson</h1>
+                    <h1 className='text-'>Rachel Townson</h1>
                 </Link>
 
                 {/* Menu Button */}
