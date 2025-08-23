@@ -19,7 +19,7 @@ export function NavBar() {
             <nav className='hidden sm:block font-neuton sticky top-0 px-5 py-5 bg-black bg-opacity-20'>
                 <div className='flow-root'>
                     <Link href={`/`}>
-                        <h1 className='text-md float-left'>Rachel Townson</h1>
+                        <h1 className='text-lg float-left'>Rachel Townson</h1>
                     </Link>
 
                     <div className='float-right'>

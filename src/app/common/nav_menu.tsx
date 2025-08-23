@@ -14,7 +14,7 @@ export function NavMenu() {
         <nav className='flow-root'>
             <div className='flow-root sticky top-0 px-5 py-5 bg-black bg-opacity-20'>
                 <Link className='float-left' href={`/`}>
-                    <h1 className='text-'>Rachel Townson</h1>
+                    <h1 className='text-md'>Rachel Townson</h1>
                 </Link>
 
                 {/* Menu Button */}
@@ -29,15 +29,15 @@ export function NavMenu() {
             {isOpen && (
                 <div className='flex flex-col items-end bg-black bg-opacity-10 px-5 py-5'>
                     <Link href={`/career`}>
-                        <button className='block text-lg px-5'> CAREER </button>
+                        <button className='block text-md px-5'> CAREER </button>
                     </Link>
                     
                     <Link href={`/projects`}>
-                        <button className='block text-lg px-5'> PROJECTS </button>
+                        <button className='block text-md px-5'> PROJECTS </button>
                     </Link>
                     
                     <Link href={`/contact`}>
-                        <button className='block text-lg px-5'> CONTACT </button>
+                        <button className='block text-md px-5'> CONTACT </button>
                     </Link>
                 </div>
             )}
