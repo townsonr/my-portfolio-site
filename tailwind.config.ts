@@ -16,7 +16,7 @@ const config: Config = {
       lightest: '#F0D8C3',
       light: '#8AA8AB',
       midtone: '#b5ca50',
-      bright: '#df6f42',
+      bright: '#B23E00',
       dark: '#283F44',
     },
     fontSize: {

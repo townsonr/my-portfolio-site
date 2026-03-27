@@ -1,9 +1,20 @@
-import { ReactElement} from "react";
+import { ReactElement } from "react";
 
-export default function TextBox(props: { children: ReactElement | Iterable<ReactElement>; }) {
-    return (
-        <div className="bg-light rounded-xl mx-10 mt-10 sm:mt-20 px-7 py-7 text-dark text-sm space-y-5">
-            {props.children}
-        </div>
-    )
+type TextBoxProps = {
+  children: ReactElement | Iterable<ReactElement>;
+  /** Tailwind margin-top classes (default matches previous spacing). */
+  marginTopClass?: string;
+};
+
+export default function TextBox({
+  children,
+  marginTopClass = "mt-10 sm:mt-20",
+}: TextBoxProps) {
+  return (
+    <div
+      className={`bg-light rounded-xl mx-10 ${marginTopClass} px-7 py-7 text-dark text-sm space-y-5`}
+    >
+      {children}
+    </div>
+  );
 }
